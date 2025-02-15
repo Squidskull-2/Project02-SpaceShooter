@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 360845531}
   - component: {fileID: 360845533}
   - component: {fileID: 360845532}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,7 +295,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -309,7 +309,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -779,13 +779,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 133905223054184338, guid: 58debb3ad82296b4fbff3b167571c3a9, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 517608343111919817, guid: 58debb3ad82296b4fbff3b167571c3a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.51
+      value: -6.02
       objectReference: {fileID: 0}
     - target: {fileID: 517608343111919817, guid: 58debb3ad82296b4fbff3b167571c3a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.01
+      value: 0.86
       objectReference: {fileID: 0}
     - target: {fileID: 517608343111919817, guid: 58debb3ad82296b4fbff3b167571c3a9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -822,6 +826,10 @@ PrefabInstance:
     - target: {fileID: 2972121787630326448, guid: 58debb3ad82296b4fbff3b167571c3a9, type: 3}
       propertyPath: m_Name
       value: Barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972121787630326448, guid: 58debb3ad82296b4fbff3b167571c3a9, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1111,9 +1119,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"splashPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"isDying","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"score","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentLives","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"maxLives","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"numObstacles","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2989845217756388163, guid: 3fd8aa5251ce2104b905edc59641ba7f, type: 3}
@@ -1140,6 +1146,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 133905223054184338, guid: 58debb3ad82296b4fbff3b167571c3a9, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 517608343111919817, guid: 58debb3ad82296b4fbff3b167571c3a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.87
@@ -1183,6 +1193,10 @@ PrefabInstance:
     - target: {fileID: 2972121787630326448, guid: 58debb3ad82296b4fbff3b167571c3a9, type: 3}
       propertyPath: m_Name
       value: Barrel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972121787630326448, guid: 58debb3ad82296b4fbff3b167571c3a9, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
