@@ -1237,17 +1237,53 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1805880536856356053, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 94ac6c883cf6db44c8358f6a4be8a282, type: 3}
+    - target: {fileID: 2763936305636805311, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
+      propertyPath: m_Size.x
+      value: 1.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763936305636805311, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
+      propertyPath: m_Size.y
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763936305636805311, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763936305636805311, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763936305636805311, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 11.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763936305636805311, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 7.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2956313845645946971, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
       propertyPath: m_Name
       value: Shark
       objectReference: {fileID: 0}
     - target: {fileID: 6463440780012382522, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6463440780012382522, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6463440780012382522, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.64
       objectReference: {fileID: 0}
     - target: {fileID: 6463440780012382522, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6463440780012382522, guid: 50d7da1c18401a0449280fdf57763162, type: 3}
       propertyPath: m_LocalPosition.z
